@@ -7,3 +7,8 @@ function inputFields ($type, $name, $placeholder, $value, $autoComplete){
 
     echo $ele;
 }
+
+function getImage($str){
+    $img_directory_seperate = explode('/', $str);
+    return $imge_directory = end($img_directory_seperate);
+}

@@ -23,12 +23,12 @@
     <h1 class="text-center my-5">Registration Form</h1>
 
     <div class="container d-flex justify-content-center">
-        <form action="" method="post" class="w-50">
+        <form action="./includes/insertdata.inc.php" method="post" class="w-50" enctype="multipart/form-data">
             <?php inputFields("text", "username", "Enter your username!", "", "off");  ?>
             <?php inputFields("tel", "mobile", "Enter your mobile!", "", "off");  ?>
             <?php inputFields("file", "file", "", "", "");  ?>
 
-            <button type="button" name="submit" class="btn btn-dark">Submit</button>
+            <button type="input" name="submit" class="btn btn-dark">Submit</button>
         </form>
 
     </div>
